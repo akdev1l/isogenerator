@@ -39,6 +39,16 @@ jobs:
     container:
       image: fedora:38
       options: --privileged
+    strategy:
+      matrix:
+        cpu_arch:
+          - x86-64
+        fedora_release:
+          - 37
+          - 38
+        fedora_repo:
+          - development
+          - release
     steps:
       - name: checkout to execute local action
         uses: actions/checkout@v3
@@ -47,8 +57,9 @@ jobs:
         id: selftest
         with:
           image-name: ublue-test
-          installer-major-version: 38
-          installer-repo: development
+          installer-major-version: ${{ matrix.fedora_release }}
+          installer-repo: ${{ matrix.fedora_repo }}
+          cpu_arch: ${{ matrix.cpu_arch }}
       - name: upload test result as artifact
         uses: actions/upload-artifact@v3
         with:
