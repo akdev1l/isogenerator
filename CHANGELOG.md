@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.2](https://github.com/akdev1l/isogenerator/compare/v1.1.1...v1.1.2) (2023-04-17)
+
+
+### Bug Fixes
+
+* only move output if needed ([95fa160](https://github.com/akdev1l/isogenerator/commit/95fa1604f94f9d3d251dcbbfa928727e609b193a))
+* try random stuff ([147061c](https://github.com/akdev1l/isogenerator/commit/147061c32c45990ac4769973e14e07016022b451))
+* try to move output iso to GITHUB_WORKSPACE ([f80d7ec](https://github.com/akdev1l/isogenerator/commit/f80d7ec4727df97d896fe2f1ec1068a029cd8906))
+* try to move output to GITHUB_WORKSPACE ([c0cbbb9](https://github.com/akdev1l/isogenerator/commit/c0cbbb9c115a16a0a215248e9ec7f70b213a71a9))
+* try to output files correctly ([89c6482](https://github.com/akdev1l/isogenerator/commit/89c6482c459a0ceb688aca1269bc2673e8fd39a8))
+* use aria2c to speed up download ([a66a584](https://github.com/akdev1l/isogenerator/commit/a66a584096e11230de6c3b5482c2eb9a76bc26bb))
+
 ## [1.1.1](https://github.com/akdev1l/isogenerator/compare/v1.1.0...v1.1.1) (2023-04-17)
 
 
