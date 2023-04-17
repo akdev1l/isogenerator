@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/akdev1l/isogenerator/compare/v1.1.0...v1.1.1) (2023-04-17)
+
+
+### Bug Fixes
+
+* try to add github.workspace to output ([db63638](https://github.com/akdev1l/isogenerator/commit/db636382396a92cae619deb1f648498a4e47ae2c))
+
 ## [1.1.0](https://github.com/akdev1l/isogenerator/compare/v1.0.4...v1.1.0) (2023-04-17)
 
 
